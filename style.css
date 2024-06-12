@@ -111,7 +111,21 @@ p {
 .small-container {
     max-width: 1080px;
     margin: auto;
-    /* padding-left: 25px; */
-    /* padding-right: 25px; */
+    padding-left: 25px;
+    padding-right: 25px;
+}
 
+
+/* --------------featured---product------------- */
+
+.col-4 {
+    flex-basis: 25%;
+    min-width: 200px;
+    padding: 20px;
+    margin-bottom: 50px;
+
+}
+
+.col-4 img {
+    width: 100%;
 }
